@@ -31,12 +31,14 @@
 
 package com.toy.anagrams.ui;
 
-import com.toy.anagrams.lib.WordLibrary;
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
+
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+
+import com.toy.anagrams.lib.WordLibrary;
 
 /**
  * Main window of the Anagram Game application.
@@ -280,6 +282,7 @@ public class Anagrams extends JFrame {
         guessedWord.requestFocusInWindow();
     }//GEN-LAST:event_guessedWordActionPerformed
 
+    
     private void exitForm(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_exitForm
         System.exit(0);
     }//GEN-LAST:event_exitForm
