@@ -121,7 +121,7 @@ public class Anagrams extends JFrame {
         aboutMenuItem = new javax.swing.JMenuItem();
         exitMenuItem = new javax.swing.JMenuItem();
 
-        setTitle("Syutsuryokuseikou");
+        setTitle("出力成功");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 exitForm(evt);
@@ -152,7 +152,7 @@ public class Anagrams extends JFrame {
 
         guessLabel.setDisplayedMnemonic('Y');
         guessLabel.setLabelFor(guessedWord);
-        guessLabel.setText("あなの答え:");
+        guessLabel.setText("あなたの答え：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
