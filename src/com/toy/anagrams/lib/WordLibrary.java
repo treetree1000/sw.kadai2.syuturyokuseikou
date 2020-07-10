@@ -74,5 +74,5 @@ public abstract class WordLibrary {
      * @param userGuess the user's guess for the actual word
      * @return true if the guess was correct; false otherwise
      */
-    public abstract boolean isCorrect(int idx, String userGuess);
+    public abstract boolean isCorrect(int idx , String userGuess);
 }
