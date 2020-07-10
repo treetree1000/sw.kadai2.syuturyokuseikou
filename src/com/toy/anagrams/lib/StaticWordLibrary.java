@@ -85,52 +85,6 @@ final class StaticWordLibrary extends WordLibrary {
         "sugikana"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "me-arn",
-        "unod",
-        "sboa",
-        "werta",
-        "fecefo",
-        "ltaet",
-        "paekacn",
-        "eat",
-        "oth",
-        "cie",
-        "skeah",//
-        "dlsiuocei",
-        "slelm",
-        "dba",
-        "ogdo",
-        "tstea",
-        "muia",
-        "ziuam",////////
-        "poonkme",
-        "sabkua",
-        "muzuimi",
-        "danodmi",
-        "edra",
-        "rfmo",
-        "derma",
-        "msadau",/////
-        "niveta",
-        "regat",
-        "sohw",
-        "anm",
-        "tish",
-        "klpuoo",
-        "heer",/////////
-        "lmneo",
-        "sawrerbtry",
-        "optr",
-        "agsr",
-        "dayuoij",
-        "tlsylu",
-        "noom",
-        "tset",
-        "fshini",
-        "wyh",
-        "sda",
-        "flower",
-        "snaakigu"
         
     };
     
