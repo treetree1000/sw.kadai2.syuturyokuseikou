@@ -31,12 +31,14 @@
 
 package com.toy.anagrams.ui;
 
-import com.toy.anagrams.lib.WordLibrary;
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
+
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+
+import com.toy.anagrams.lib.WordLibrary;
 
 /**
  * Main window of the Anagram Game application.
@@ -119,7 +121,7 @@ public class Anagrams extends JFrame {
         aboutMenuItem = new javax.swing.JMenuItem();
         exitMenuItem = new javax.swing.JMenuItem();
 
-        setTitle("Syutsuryokuseikou");
+        setTitle("出力成功");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 exitForm(evt);
@@ -150,7 +152,7 @@ public class Anagrams extends JFrame {
 
         guessLabel.setDisplayedMnemonic('Y');
         guessLabel.setLabelFor(guessedWord);
-        guessLabel.setText("あなの答え:");
+        guessLabel.setText("あなたの答え：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
@@ -280,6 +282,8 @@ public class Anagrams extends JFrame {
         guessedWord.requestFocusInWindow();
     }//GEN-LAST:event_guessedWordActionPerformed
 
+    
+    
     private void exitForm(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_exitForm
         System.exit(0);
     }//GEN-LAST:event_exitForm
