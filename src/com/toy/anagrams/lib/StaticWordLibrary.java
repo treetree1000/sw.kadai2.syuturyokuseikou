@@ -83,7 +83,8 @@ final class StaticWordLibrary extends WordLibrary {
         "sad",
         "flower",
         "sugikana",
-        "kobayann"
+        "kobayann",
+        "zane"
         };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
